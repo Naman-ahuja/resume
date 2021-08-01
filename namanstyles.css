@@ -166,13 +166,24 @@ p {
 }
 
 #hero {
-  background-image: url(images/thtsme.jpg);
+  background-image: url(images/theme.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
   z-index: 1;
 }
+.h{
 
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right:40px;
+    top: 160px;;
+    border-radius: 100%;
+  background-image: black;
+  opacity: 0.6;
+
+}
 #hero::after {
   content: '';
   position: absolute;
@@ -307,12 +318,12 @@ p {
 }
 
 #contact .contact-items {
- 
+
   width: 80%;
 }
 
 #contact .contact-item {
-  lex-basis: 80%;
+  flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
@@ -566,7 +577,19 @@ p {
     padding-left: 20px;
   }
 
-  
+  .h{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    width: 30rem;
+    position: absolute;
+    right:10rem;
+      top: 10rem;
+      border-radius: 100%;
+    background-image: black;
+    opacity: 0.6;
+
+  }
 }
 
 
@@ -589,7 +612,6 @@ p {
   #header .nav-list ul li a {
     font-size: 1.8rem;
   }
-
 
   #services .service-bottom .service-item {
     flex-basis: 22%;
