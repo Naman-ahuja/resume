@@ -1,2 +1,2 @@
 
-https://naman-ahuja.github.io/cv/
+https://naman-resume.netlify.app/#mine
